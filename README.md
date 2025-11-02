@@ -34,3 +34,8 @@ Como se consige:
 
 7 Para arreglarlo modifica el archivo desde la rama que recibe el merge y deja lo que quieras del archivo, 
 finalmente haz git merge --continue o git add de los archivos modificados y un nuevo commit
+
+
+#Ver cambios
+git log --oneline
+git show  --name-only
