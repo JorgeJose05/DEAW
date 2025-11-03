@@ -39,3 +39,6 @@ finalmente haz git merge --continue o git add de los archivos modificados y un n
 #Ver cambios
 git log --oneline
 git show  --name-only
+
+#Subir commit desde una rama que esta en local pero no en remoto
+git push -u origin nuevaRama
